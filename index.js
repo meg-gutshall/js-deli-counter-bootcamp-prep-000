@@ -22,7 +22,8 @@ function currentLine(line) {
     return "The line is currently empty.";
   } else {
     var order;
-    for (let i=line.length; i > 0; i--)
-    order.unshift(line[i])
+    for (let i=line.length; i > 0; i--) {
+      order.unshift(line[i])
+    }
   }
 }
