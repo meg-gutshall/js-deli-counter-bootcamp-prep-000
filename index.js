@@ -23,8 +23,8 @@ function currentLine(line) {
   } else {
     var order;
     do {
-      
-    }
+      order.unshift(line[i])
+    } while
     
     for (let i=line.length; i > 0; i--) {
       order.unshift(line[i])
