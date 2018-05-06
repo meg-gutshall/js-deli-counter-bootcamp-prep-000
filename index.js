@@ -23,7 +23,7 @@ function currentLine(line) {
   } else {
     var order = [];
     do {
-      order.unshift(line.length + ". " + (line[(line.length - 1)]) + " ");
+      order.unshift(" " + line.length + ". " + (line[(line.length - 1)]));
       --line.length;
     } while (line.length > 0);
     return "The line is currently: " + order;
