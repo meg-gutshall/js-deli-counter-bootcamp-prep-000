@@ -25,7 +25,7 @@ function currentLine(line) {
     do {
       order.unshift(line.length + ". " + console.log(line[line.length]) + ", ");
       --line.length;
-    } while (line.length > 0);
+    } while (line.length > -1);
     return "The line is currently: " + order;
   }
 }
