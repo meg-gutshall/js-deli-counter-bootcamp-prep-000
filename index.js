@@ -23,7 +23,8 @@ function currentLine(line) {
   } else {
     var order;
     do {
-      order.unshift(line.length)
+      --line.length;
+      order.unshift(line.length + ". " + )
     } while (line.length > 0);
   }
 }
