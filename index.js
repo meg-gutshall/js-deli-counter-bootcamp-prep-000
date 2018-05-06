@@ -7,3 +7,6 @@ function takeANumber(katzDeli, otherDeli) {
   return katzDeliLine;
 }
 
+function nowServing() {
+  
+}
