@@ -11,6 +11,6 @@ function nowServing(katzDeli, otherDeli) {
   if (otherDeli.length === 0) {
     return "There is nobody waiting to be served!";
   } else {
-    return "Currently serving "Steven".";
+    return "Currently serving " + katzDeli + ".";
   }
 }
