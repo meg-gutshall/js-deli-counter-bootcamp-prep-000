@@ -26,6 +26,6 @@ function currentLine(line) {
       order.unshift(" " + line.length + ". " + (line[(line.length - 1)]));
       --line.length;
     } while (line.length > 0);
-    return "The line is currently: " + order;
+    return "The line is currently:" + order;
   }
 }
