@@ -10,6 +10,7 @@ function takeANumber(katzDeli, otherDeli) {
 function nowServing(otherDeli) {
   if (otherDeli.length === 0) {
     return "There is nobody waiting to be served!";
-  } else
-  
+  } else {
+    
+  }
 }
