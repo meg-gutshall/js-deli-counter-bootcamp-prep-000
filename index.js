@@ -17,6 +17,8 @@ function nowServing(katzDeli) {
   }
 }
 
-function currentLine(katzDeliLine) {
-  
+function currentLine(katzDeliLine, katzDeli) {
+  if (katzDeli.length === 0) {
+    return 
+  }
 }
