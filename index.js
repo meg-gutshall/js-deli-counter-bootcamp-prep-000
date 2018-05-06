@@ -25,9 +25,5 @@ function currentLine(line) {
     do {
       order.unshift(line.length)
     } while (line.length > 0);
-    
-    for (let i=line.length; i > 0; i--) {
-      order.unshift(line[i])
-    }
   }
 }
