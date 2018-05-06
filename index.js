@@ -24,7 +24,7 @@ function currentLine(line) {
     var order;
     do {
       --line.length;
-      order.unshift(line.length + ". " + )
+      order.unshift(line.length + ". " + line[line.length] + ", ")
     } while (line.length > 0);
   }
 }
